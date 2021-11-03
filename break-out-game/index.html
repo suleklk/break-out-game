@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Breakout Game</title>
+</head>
+
+<body>
+  <header>
+    <section class="right">
+      <h2 class="score" id="idScore">Score:</h2>
+    </section>
+    <section class="left">
+      <h2 class="lives" id="idLives">Lives:</h2>
+    </section>
+  </header>
+  <div>
+    <button class="close-modal">&times;</button>
+    <h1>GAME OVER</h1>
+    <p class="label-score">Score: <span class="score">20</span></p>
+    <p class="label-highscore">Highscore: <span class="score">20</span></p>
+    <button class="newGame">New Game</button>
+  </div>
+  <div class="overlay hidden"></div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
